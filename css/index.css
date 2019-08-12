@@ -112,6 +112,24 @@ nav {
         margin: 0% 40%;
     }
 }
+@media (max-width: 500px) {
+    nav {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        width: 100%;
+    }
+    
+    nav a {
+        border-bottom: 1px solid darkgrey;
+        width: 100%;
+        padding-left: 45%;  
+        padding-bottom: 5%   
+    }
+    .logo {
+        padding-left: 35%;
+    }
+}
 nav a {
     color: darkgrey;
 }
