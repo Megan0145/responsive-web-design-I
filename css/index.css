@@ -164,6 +164,15 @@ nav a {
         width: 100%;
     }
 }
+@media (max-width: 500px) {
+    .mainbodyrow {
+       margin: 20px 0px;
+       flex-direction: column;
+    }
+    .middle-img {
+        width: 100%;
+    }
+}
 .mainbodycol {
 	display: flex;
 	flex-direction: column;
@@ -172,6 +181,11 @@ nav a {
 @media (max-width: 800px) {
     .mainbodycol {
         padding: 10px;
+    }
+}
+@media (max-width: 500px) {
+    .mainbodycol {
+        padding: 10px 0px;
     }
 }
 .bobo {
