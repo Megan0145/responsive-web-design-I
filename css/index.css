@@ -120,6 +120,12 @@ nav a {
 	flex-direction: column;
 	text-align: center;
 }
+
+@media (max-width: 800px) {
+    .jumbo-img {
+        display: none;
+    }
+}
 .mainbodyrow {
 	display: flex;
 	justify-content: space-evenly;
